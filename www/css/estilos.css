@@ -1,0 +1,30 @@
+html,body{
+	height:100%;
+}
+body{
+	background: linear-gradient(lightblue, white);
+
+}
+h1{
+	text-align:center;
+}
+.menu{
+	list-style:none;
+	display:flex;
+	justify-content:space-around;
+	width:100%;
+}
+.menu li a{
+	color:black;
+	font-size:2em;
+}
+.menu li a:hover{
+	color:orange;
+
+}
+
+.foto{
+	display:block;
+	margin:0 auto;
+	max-width:300px;
+}
